@@ -5,13 +5,13 @@
         <img src="@/assets/img/logo.png" />
       </router-link>
       <nav>
-        <a href="home">Domov</a>
-        <a href="about">O nás</a>
-        <a href="services">Služby</a>
-        <a href="slovakia">Slovensko</a>
-        <a href="wellnes">Wellnes a kúpele</a>
-        <a href="alcoroads">Vínne cesty</a>
-        <a href="contact">Kontaktujte nás</a>
+        <router-link to="/">Home</router-link> 
+        <router-link to="/about">About us</router-link>
+        <router-link to="/services">Services</router-link> 
+        <router-link to="/slovakia">Slovakia</router-link>
+        <router-link to="/wellnes">Wellnes</router-link> 
+        <router-link to="/alcoroads">Alcoroads</router-link>
+        <router-link to="/contactform">Contact</router-link> 
       </nav>
     </header>
 
