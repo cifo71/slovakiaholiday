@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:                  0;
+  font-family:             sans-serif;
+  -webkit-font-smoothing:  antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  &,
+  &:hover,
+  &:active,
+  &:visited,
+  &:link {
+    text-decoration: none;
+  }
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+button {
+  appearance: none;
+  border:     none;
+}

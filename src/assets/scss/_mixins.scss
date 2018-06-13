@@ -1,0 +1,23 @@
+@import "variables";
+
+@mixin media($size) {
+  @if $size == xs {
+    @content;
+  } @else if $size == sm {
+    @media screen and (min-width: #{map-get($breakpoints, sm)}px) {
+      @content;
+    }
+  } @else if $size == md {
+    @media screen and (min-width: #{map-get($breakpoints, md)}px) {
+      @content;
+    }
+  } @else if $size == lg {
+    @media screen and (min-width: #{map-get($breakpoints, lg)}px) {
+      @content;
+    }
+  } @else if $size == xl {
+    @media screen and (min-width: #{map-get($breakpoints, xl)}px) {
+      @content;
+    }
+  }
+}
