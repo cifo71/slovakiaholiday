@@ -74,6 +74,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
+    height: 50px;
     background-color: #2C3E50;
     color: white;
     text-align: center;

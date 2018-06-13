@@ -43,8 +43,8 @@ export default {
 </script>
 
 <style lang="scss">
-@import '~@/assets/scss/variables';
-@import '~@/assets/scss/mixins';
+@import '~@/assets/scss/_variables';
+@import '~@/assets/scss/_mixins';
 
 $sizes: (
   md: 760,
