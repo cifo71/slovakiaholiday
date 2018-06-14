@@ -5,13 +5,13 @@
         <img src="@/assets/img/logo.png" />
       </router-link>
       <nav>
-        <router-link to="/">Home</router-link> 
-        <router-link to="/about">About us</router-link>
-        <router-link to="/services">Services</router-link> 
-        <router-link to="/slovakia">Slovakia</router-link>
-        <router-link to="/wellnes">Wellnes</router-link> 
-        <router-link to="/alcoroads">Alcoroads</router-link>
-        <router-link to="/contactform">Contact</router-link> 
+        <router-link :to="{ name: 'home' }">Home</router-link> 
+        <router-link :to="{ name: 'about' }">About us</router-link> 
+        <router-link :to="{ name: 'services' }">Services</router-link> 
+        <router-link :to="{ name: 'slovakia' }">Slovakia</router-link>
+        <router-link :to="{ name: 'wellnes' }">Wellnes</router-link> 
+        <router-link :to="{ name: 'alcoroads' }">Alcoroads</router-link>
+        <router-link :to="{ name: 'contactform' }">Contact</router-link>
       </nav>
     </header>
 
